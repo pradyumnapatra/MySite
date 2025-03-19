@@ -12,7 +12,6 @@ function drawCircleS(x,y,r,ctx){
     ctx.beginPath();
     ctx.arc(x, y, r, 0, 2 * Math.PI, false);
     ctx.stroke();
-
 }
 function drawRect(x,y,width,height,color,ctx){
     ctx.fillStyle = color;
